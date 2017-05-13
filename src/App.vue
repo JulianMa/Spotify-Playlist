@@ -23,6 +23,8 @@
 </script>
 
 <style lang="scss">
+    $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+    @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;

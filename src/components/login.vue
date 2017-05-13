@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="login">Login to Spotify</button>
+        <button class="btn btn-default" @click="login">Login to Spotify</button>
     </div>
 </template>
 

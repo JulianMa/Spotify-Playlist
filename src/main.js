@@ -7,14 +7,13 @@ import login from './components/login.vue'
 import logedin from './components/logedin.vue'
 import create from './components/create.vue'
 import getTracks from './components/getTracks.vue'
-import getSongs from './components/getAllSongs.vue'
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, Axios);
 
 const routes = [
     {path: '/', component: login, props: true},
-    {path: '/access_token*', components: {default: logedin, create: create, addTracks: getTracks, getSongs: getSongs}, props: true},
+    {path: '/access_token*', components: {default: logedin, create: create, addTracks: getTracks}, props: true},
 ];
 
 const router = new VueRouter({
